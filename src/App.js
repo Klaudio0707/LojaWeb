@@ -24,6 +24,7 @@ function App() {
       <header>
         <strong>Loja Web</strong>
         </header>
+        {/* utilização do map para pecorrer todo o array */}
         {nutri.map((item) => {
           return (
             <article key={item.id} className="post">
@@ -36,6 +37,7 @@ function App() {
               <p className="subtitulo">
                 {item.subtitulo}
               </p>
+              <h1>Categoria: {item.categoria}</h1>
               <a className="botao" href="a">Acessar</a>
             </article>
           );
