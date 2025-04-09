@@ -18,7 +18,7 @@ Para rodar este projeto na sua máquina local, siga os passos abaixo:
 1. Clonar o repositório
 bash
 Copiar
-git clone https://github.com/seuusuario/loja-web-react.git
+git clone https://github.com/Klaudio0707/LojaWeb.git
 2. Instalar dependências
 Navegue até a pasta do projeto e instale as dependências:
 
